@@ -22,11 +22,11 @@ chmod +x update.sh
 If you modify the code, you have to update the stack with the same parameters that using before
 
 ```
-./create.sh CB-Udacity-Network network.yml network-parameters.json
+./update.sh CB-Udacity-Network network.yml network-parameters.json
 ```
 or
 ```
-./create.sh CB-Udacity-Servers servers.yml server-parameters.json
+./update.sh CB-Udacity-Servers servers.yml server-parameters.json
 ```
 
 ## Outputs
