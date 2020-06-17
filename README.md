@@ -14,4 +14,4 @@ In this project, you’ll deploy web servers for a highly available web app usin
 
 ## Outputs
 
-In the tab Output AWS Console -> CloudFormation -> CB-Udacity-Servers is possible to see the endpoint of the application
+In the tab Output of AWS Console -> CloudFormation -> CB-Udacity-Servers is possible to see the endpoint of the application
