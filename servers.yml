@@ -84,7 +84,7 @@ Resources:
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
-      KeyName: !Sub ${KeyBastionSSH}
+      KeyName: !Sub ${KeyBastionSSH} # Added key to connect from Bastion host
       BlockDeviceMappings:
       - DeviceName: "/dev/sdk"
         Ebs:
