@@ -4,7 +4,15 @@
 		"ParameterValue": "CB-HA-WebApp"
 	},
     {
-    "ParameterKey": "BastionHostKeyName",
-    "ParameterValue": "udacity-oregon-course"
+        "ParameterKey": "SourceIP",
+        "ParameterValue": "93.32.69.141/32"
+    },
+    {
+        "ParameterKey": "S3BucketKeyName",
+        "ParameterValue": "udacity-web-app-ha"
+    },
+    {
+        "ParameterKey": "KeyBastionSSH",
+        "ParameterValue": "udacity-oregon-course"
     }
 ]
